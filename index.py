@@ -63,9 +63,9 @@ def skipday(day):
     return day
 
 
-#day = datetime.datetime.now()
-strday = '2021-02-27'
-day = datetime.datetime.strptime(strday, '%Y-%m-%d')
+day = datetime.datetime.now()
+#strday = '2021-02-27'
+#day = datetime.datetime.strptime(strday, '%Y-%m-%d')
 
-skipday(day)
+day = skipday(day)
 print(timestamp(day) + " 지정된 날짜")
